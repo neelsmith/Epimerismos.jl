@@ -2,3 +2,19 @@ name = "Epimerismos"
 uuid = "61accbf2-cd53-4b71-a025-0f55be5cb7c4"
 authors = ["Neel Smith <dnsmith.neel@gmail.com>"]
 version = "0.1.0"
+
+[deps]
+DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+Kanones = "107500f9-53d4-4696-8485-0747242ad8bc"
+Orthography = "0b4c9448-09b0-4e78-95ea-3eb3328be36d"
+PolytonicGreek = "72b824a7-2b4a-40fa-944c-ac4f345dc63a"
+TestSetExtensions = "98d24dd4-01ad-11ea-1b02-c9a08f80db04"
+
+[compat]
+DocStringExtensions = "0.9"
+Documenter = "0.27"
+Kanones = "0.16"
+Orthography = "0.18"
+PolytonicGreek = "0.18"
+TestSetExtensions = "2"
