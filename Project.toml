@@ -4,6 +4,9 @@ authors = ["Neel Smith <dnsmith.neel@gmail.com>"]
 version = "0.1.0"
 
 [deps]
+CitableBase = "d6f014bd-995c-41bd-9893-703339864534"
+CitableCorpus = "cf5ac11a-93ef-4a1a-97a3-f6af101603b5"
+CitableParserBuilder = "c834cb9d-35b9-419a-8ff8-ecaeea9e2a2a"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 Kanones = "107500f9-53d4-4696-8485-0747242ad8bc"
@@ -12,6 +15,9 @@ PolytonicGreek = "72b824a7-2b4a-40fa-944c-ac4f345dc63a"
 TestSetExtensions = "98d24dd4-01ad-11ea-1b02-c9a08f80db04"
 
 [compat]
+CitableBase = "10"
+CitableCorpus = "0.13"
+CitableParserBuilder = "0.23"
 DocStringExtensions = "0.9"
 Documenter = "0.27"
 Kanones = "0.16"
