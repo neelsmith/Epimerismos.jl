@@ -31,7 +31,7 @@ end
 """Segment `tkns` into vectors corresponding to sentences.
 This `tkns` parameter is what comes out of `tokenize` a corpus.
 """
-function sentences(tkns::Vector{Tuple{CitablePassage, TokenCategory}}; terminators = [".", ";", ":"])
+function sentences(tkns::Vector{CitableToken}}; terminators = [".", ";", ":"])
     @info("Parsing $(length(tkns)) into sentences")
     sentencelist = Sentence[]
     currenttokens = Tuple{CitablePassage, TokenCategory}[]
